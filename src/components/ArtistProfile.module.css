@@ -1,0 +1,107 @@
+.ProfileContainer {
+  width: 700px;
+  height: 380px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: show-profile;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes show-profile {
+  0% {
+    opacity: 0;
+    top: 52%;
+  }
+  100% {
+    opacity: 1;
+    top: 50%;
+  }
+}
+
+.Background {
+  width: 640px;
+  height: 380px;
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 4px;
+  margin: auto;
+  z-index: -2;
+}
+
+.BackButton {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: -60px;
+  left: 0%;
+  cursor: pointer;
+}
+
+.BackButton:hover {
+  transition: all 250ms;
+  opacity: 0.5;
+}
+
+.LabelsContainer {
+  height: 380px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.ArtistTag {
+  width: 105px;
+  height: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  background-color: rgba(30, 50, 100, 0.2);
+  text-align: center;
+  line-height: 35px;
+  margin: 45px 0 12px 15px;
+}
+
+.ArtistName {
+  width: 430px;
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  word-wrap: break-word;
+  background-color: #1e3264;
+  padding: 2px 0;
+  margin-bottom: 20px;
+}
+
+.SpotifyButton {
+  display: inline-block;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #1db954;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  margin-left: 50px;
+}
+
+.SpotifyButton:hover {
+  transition: all 50ms;
+  background-color: #25c05b;
+  transform: scale(1.04);
+}
+
+.ArtistImg {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+}
