@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1def4443.css",
-    "main.js": "/static/js/main.b2c0b222.js",
-    "static/media/back-button.svg": "/static/media/back-button.cecea9e9c641de09aa3a60f5f4098c0d.svg",
-    "static/media/search.svg": "/static/media/search.13562fe5827e85b4326243d21e82bbcd.svg",
-    "index.html": "/index.html",
-    "main.1def4443.css.map": "/static/css/main.1def4443.css.map",
-    "main.b2c0b222.js.map": "/static/js/main.b2c0b222.js.map"
+    "main.css": "/spotify-api-project-react/static/css/main.25535077.css",
+    "main.js": "/spotify-api-project-react/static/js/main.4f7228cf.js",
+    "static/media/back-button.svg": "/spotify-api-project-react/static/media/back-button.cecea9e9c641de09aa3a60f5f4098c0d.svg",
+    "static/media/search.svg": "/spotify-api-project-react/static/media/search.13562fe5827e85b4326243d21e82bbcd.svg",
+    "index.html": "/spotify-api-project-react/index.html",
+    "main.25535077.css.map": "/spotify-api-project-react/static/css/main.25535077.css.map",
+    "main.4f7228cf.js.map": "/spotify-api-project-react/static/js/main.4f7228cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.1def4443.css",
-    "static/js/main.b2c0b222.js"
+    "static/css/main.25535077.css",
+    "static/js/main.4f7228cf.js"
   ]
 }

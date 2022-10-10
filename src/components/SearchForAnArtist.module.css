@@ -74,19 +74,19 @@ img {
 
 @keyframes shake-error {
   0% {
-    transform: translateX(10px);
+    transform: translateX(8px);
   }
   20% {
-    transform: translateX(-10px);
+    transform: translateX(-8px);
   }
   40% {
-    transform: translateX(6px);
+    transform: translateX(4px);
   }
   60% {
-    transform: translateX(-6px);
+    transform: translateX(-4px);
   }
   80% {
-    transform: translateX(3px);
+    transform: translateX(2px);
   }
   100% {
     transform: translateX(0px);
