@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## See the website
 
-See the website: https://chrashpun.github.io/spotify-api-project-react/
+Click here: https://chrashpun.github.io/spotify-api-project-react/
 
 ## Available Scripts
 
